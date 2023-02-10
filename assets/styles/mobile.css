@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+    .visible {
+        visibility: visible;
+    }
+    .navLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        list-style: none;
+        gap: 10px;
+        padding: 16px;
+        background-color: #425f7c;
+        position: fixed;
+        top: -15px;
+        right: 0;
+        height: 100%;
+        transition: 1s;
+        width: 210px;
+        overflow: hidden;
+    }
+    .invisible{
+        visibility: hidden;
+    }
+    .navLinks a {
+        margin: 0;
+    }
+    .rightItems a {
+        display: none;
+    }
+    .rightItems li:nth-child(4) {
+        display: block;
+    }
+    .rightItems ul li label i {
+        display: block;
+        text-align: right;
+    }
+    .mainDetails {
+        margin: 15px;
+        text-align: center;
+    }
+    .mainDetails .buttons {
+        justify-content: center;
+    }
+    .mainDetails button {
+        padding: 0 15px;
+    }
+}
